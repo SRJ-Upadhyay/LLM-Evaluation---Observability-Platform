@@ -1,0 +1,36 @@
+# 🧠 LLM and LangChain
+langchain
+langchain-core
+langchain-community<0.4.2
+langchain-google-genai
+python-dotenv
+
+# 🔭 Observability (Langfuse)
+langfuse
+
+# 📏 Evaluation
+ragas
+datasets
+pandas
+
+# 📚 Retrieval (for the RAG app we evaluate)
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+pypdf
+
+# 🗄️ Database (PostgreSQL)
+sqlalchemy
+psycopg2-binary
+
+# 🌐 API (FastAPI)
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# 🎨 Output
+rich
+
+# 🖥️ Dashboard
+streamlit

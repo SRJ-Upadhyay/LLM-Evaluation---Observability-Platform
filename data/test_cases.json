@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is backpropagation in a neural network?",
+    "ground_truth": "Backpropagation is the algorithm that computes the gradient of the loss with respect to every weight by applying the chain rule backwards from the output layer to the input layer, so the weights can be updated with gradient descent."
+  },
+  {
+    "question": "What is the vanishing gradient problem?",
+    "ground_truth": "The vanishing gradient problem happens when gradients become extremely small as they are propagated back through many layers, so early layers learn very slowly or stop learning."
+  },
+  {
+    "question": "What is the purpose of an activation function?",
+    "ground_truth": "An activation function adds non-linearity to a neural network so it can learn complex patterns instead of only linear relationships."
+  },
+  {
+    "question": "What is overfitting and how can dropout help?",
+    "ground_truth": "Overfitting is when a model memorizes the training data and performs poorly on new data. Dropout randomly turns off neurons during training, which reduces co-dependence between neurons and helps the model generalize."
+  },
+  {
+    "question": "What is a convolutional neural network used for?",
+    "ground_truth": "A convolutional neural network uses convolution filters to extract local spatial features, so it is mainly used for images and other grid-like data."
+  },
+  {
+    "question": "What is the difference between batch gradient descent and stochastic gradient descent?",
+    "ground_truth": "Batch gradient descent computes the gradient on the whole training set for each update, while stochastic gradient descent updates the weights using one example (or a small mini-batch) at a time, which is faster and noisier."
+  }
+]
